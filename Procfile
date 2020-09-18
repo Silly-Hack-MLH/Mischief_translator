@@ -1,1 +1,1 @@
-web: gunicorn app:translator.py
+web: gunicorn app:app
