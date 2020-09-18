@@ -1,5 +1,6 @@
 import nltk
 nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 from flask import Flask, request, jsonify
 from nltk import word_tokenize, pos_tag, ne_chunk
 from nltk.corpus import wordnet
