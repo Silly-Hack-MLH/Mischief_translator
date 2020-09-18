@@ -1,3 +1,5 @@
+import nltk
+nltk.download('punkt')
 from flask import Flask, request, jsonify
 from nltk import word_tokenize, pos_tag, ne_chunk
 from nltk.corpus import wordnet
